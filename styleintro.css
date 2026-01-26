@@ -1,0 +1,87 @@
+/* INTRO */
+#intro {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, #111, #000);
+  z-index: 10;
+}
+
+/* CENTRAGE */
+.center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e0c97f;
+  z-index: 3;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.site-name {
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* LOADER */
+.loader {
+  width: 220px;
+  height: 6px;
+  background: #222;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.loader span {
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, #c9a14a, #f5e6a8);
+  animation: load 1.6s infinite;
+}
+
+@keyframes load {
+  from { transform: translateX(-120%); }
+  to { transform: translateX(300%); }
+}
+
+/* RIDEAUX */
+.curtain {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: white;
+  z-index: 2;
+  transition: transform 1.4s ease-in-out;
+}
+
+.curtain.top {
+  top: 0;
+  transform: translateY(0);
+}
+
+.curtain.bottom {
+  bottom: 0;
+  transform: translateY(0);
+}
+
+/* OUVERTURE */
+.open .curtain.top {
+  transform: translateY(-100%);
+}
+
+.open .curtain.bottom {
+  transform: translateY(100%);
+}
+
+.fade-out-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* 0.3s pour que ce soit rapide mais visible */
+}

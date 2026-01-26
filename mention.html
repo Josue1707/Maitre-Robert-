@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Impressum – Meister Robert Tchedji</title>
+<meta name="description" content="Impressum der offiziellen Seite von Meister Robert Tchedji. Rechtliche Informationen, Verantwortung, Datenschutz und Nutzungsbedingungen.">
+
+<link rel="stylesheet" href="styleintro.css">
+<link rel="stylesheet" href="styleismo.css">
+
+<style>
+  body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.7;
+  }
+
+  header.hero {
+    height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  header.hero h1 {
+    font-size: 2.4rem;
+    z-index: 2;
+  }
+
+  header.hero .overlay {
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .legal-section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+  }
+
+  .legal-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #f2c94c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+  }
+
+  .legal-section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-top: 8px;
+    background: linear-gradient(to right, #f2c94c, transparent);
+    border-radius: 2px;
+  }
+
+  .legal-section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #e6e6e6;
+    margin-bottom: 15px;
+  }
+
+  .legal-section ul {
+    margin: 15px 0 0 0;
+    padding-left: 20px;
+  }
+
+  .legal-section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ddd;
+    list-style: square;
+  }
+
+  .legal-section a {
+    color: #f2c94c;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .legal-section a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .legal-section {
+      margin: 40px 15px;
+      padding: 30px 20px;
+    }
+    .legal-section h2 {
+      font-size: 1.4rem;
+    }
+    header.hero h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  a.back {
+    display: inline-block;
+    margin: 20px 0 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6a11cb;
+    border: 2px solid #6a11cb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  a.back:hover {
+    background: #6a11cb;
+    color: #fff;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- INTRO -->
+<div id="intro" aria-hidden="true">
+  <div class="curtain top"></div>
+  <div class="curtain bottom"></div>
+  <div class="center">
+    <h1 class="site-name">Impressum</h1>
+    <div class="loader" aria-label="Laden"><span></span></div>
+  </div>
+</div>
+
+<main>
+  <!-- MENU HAMBURGER -->
+  <div id="hamburgerMenu">
+    <div id="hamburgerIcon">&#9776;</div>
+    <nav id="menuContent">
+      <a href="aboutis.html">ÜBER UNS</a>
+      <a href="retour.html">SCHNELLE LIEBESRÜCKFÜHRUNG</a>
+      <a href="service.html">DIENSTE</a>
+      <a href="products.html">PRODUKTE</a>
+      <a href="temoignage.html">ZEUGNISSE</a>
+      <a href="question.html">FAQs</a>
+      <a href="article.html">ARTIKEL & TIPPS</a>
+      <a href="contacte.html">KONTAKT</a>
+      <a href="mention.html">IMPRESSUM</a>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="slide active" style="background-image: url('images/photobg.jpg');"></div>
+    <div class="slide" style="background-image: url('images/bg1.jpg');"></div>
+    <div class="overlay"></div>
+    <h1>Meister Robert Tchedji</h1>
+  </header>
+
+  <!-- SECTIONS -->
+  <section class="legal-section">
+    <h2>Rechtliche Informationen</h2>
+    <p>Diese Angaben informieren die Nutzer über den Herausgeber, die Nutzungsbedingungen und Verantwortlichkeiten der Website.</p>
+    <ul>
+      <li><strong>Website Name:</strong> Offizielle Seite von Meister Robert Tchedji</li>
+      <li><strong>Verantwortlich:</strong> Meister Robert Tchedji</li>
+      <li><strong>Tätigkeit:</strong> Wahrsagerei, spirituelle Beratung und traditionelle Rituale</li>
+      <li><strong>Kontakt:</strong> über die <a href="contacte.html">Kontaktseite</a></li>
+    </ul>
+  </section>
+
+  <section class="legal-section">
+    <h2>Hosting</h2>
+    <p>Die Website wird von Netlify gehostet, was Sicherheit und Leistung garantiert.</p>
+    <ul>
+      <li><strong>Host:</strong> Netlify, Inc.</li>
+      <li><strong>Website:</strong> https://www.netlify.com</li>
+    </ul>
+  </section>
+
+  <section class="legal-section">
+    <h2>Verantwortung</h2>
+    <p>Die Inhalte dienen nur zu Informations- und spirituellen Zwecken und ersetzen keine medizinische, rechtliche oder professionelle Beratung.</p>
+  </section>
+
+  <section class="legal-section">
+    <h2>Geistiges Eigentum</h2>
+    <p>Alle Inhalte dieser Website sind geschützt. Jede Vervielfältigung ist ohne schriftliche Genehmigung verboten.</p>
+  </section>
+
+  <section class="legal-section">
+    <h2>Personenbezogene Daten</h2>
+    <p>Gesammelte Daten sind streng vertraulich und werden niemals an Dritte weitergegeben.</p>
+  </section>
+
+  <section class="legal-section">
+    <h2>Anwendbares Recht</h2>
+    <p>Diese Angaben unterliegen dem geltenden Recht. Eine einvernehmliche Lösung wird bevorzugt.</p>
+  </section>
+
+  <a class="back" href="index.html">← Zurück zur Startseite</a>
+
+  <!-- POPUP WHATSAPP -->
+  <div id="whatsappPopup">
+    <div id="whatsappHeader">
+      Schreiben Sie uns <span id="closeWhatsApp">&times;</span>
+    </div>
+    <button id="whatsappButton">WhatsApp Chat</button>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Über uns</h3>
+      <p>Meister Robert ist ein erfahrener spiritueller Praktiker und Erbe alter Weisheiten. Er unterstützt Menschen bei Blockaden, mystischen Angriffen, Ungerechtigkeiten oder tiefen Schwierigkeiten.</p>
+    </div>
+    <a href="about.html" class="footer-about-btn">Mehr erfahren →</a>
+
+    <div class="footer-contact">
+      <h3>Kontakt</h3>
+      <p>📞 +229 98 21 05 27</p>
+      <p>✉️ Honorablepuissanttchedji@gmail.com</p>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Ihre E-Mail" required>
+        <button type="submit">Abonnieren</button>
+      </form>
+    </div>
+
+    <div class="footer-socials">
+      <h3>Folgen & Kontakt</h3>
+      <div class="social-icons-footer">
+        <a href="https://wa.me/22998210527" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:Honorablepuissanttchedji@gmail.com"><img src="images/mail.png" alt="Email"></a>
+        <a href="https://www.youtube.com/@grandmaitremaraboutdumonde4679" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+        <a href="tel:+2290198210527"><img src="images/phone.png" alt="Telefon"></a>
+        <a href="https://www.facebook.com/share/1A7EYnWH4y/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@maraboutroberttchedji" target="_blank"><img src="images/tiktok.png" alt="TikTok"></a>
+        <a href="https://www.snapchat.com/add/camaravoyant" target="_blank"><img src="images/Snapchat.png" alt="Snapchat"></a>
+        <a href="https://www.instagram.com/puissanttchedjihonorable" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://pin.it/6vdGNss5n" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© 2026 Alle Rechte vorbehalten — <a href="mention.html">Datenschutz</a></div>
+  </div>
+</footer>
+
+<script src="scriptintro.js"></script>
+<script src="button.js"></script>
+<script>
+  // Hamburger Menu
+  const hamburgerIcon = document.getElementById('hamburgerIcon');
+  const menuContent = document.getElementById('menuContent');
+  if(hamburgerIcon){
+    hamburgerIcon.addEventListener('click', () => {
+      menuContent.classList.toggle('open');          
+      hamburgerIcon.classList.toggle('active');      
+    });
+  }
+
+  // WhatsApp Popup
+  setTimeout(() => document.getElementById('whatsappPopup').classList.add('show'), 5000);
+  document.getElementById('closeWhatsApp').addEventListener('click', () => document.getElementById('whatsappPopup').classList.remove('show'));
+  document.getElementById('whatsappButton').addEventListener('click', () => window.open('https://wa.me/22998210527', '_blank'));
+
+  // Slider
+  const slides = document.querySelectorAll('.slide');
+  let index = 0;
+  setInterval(() => {
+    if(slides.length > 0){
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }
+  }, 3500);
+
+  // Newsletter Toast
+  const form = document.getElementById("newsletter-form");
+  const toast = document.createElement("div");
+  toast.id = "newsletter-toast";
+  toast.style.display = "none";
+  toast.innerHTML = "✔️ Vielen Dank für Ihr Vertrauen.<br>Sie erhalten bald exklusive Informationen.";
+  document.body.appendChild(toast);
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    toast.style.display = "block";
+    form.reset();
+    setTimeout(() => toast.style.display = "none", 5000);
+  });
+</script>
+</body>
+</html>

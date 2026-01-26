@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kontakt – Meister Marabout Robert Tchedji</title>
+
+  <meta name="description" content="Kontaktieren Sie Meister Marabout Robert Tchedji für Beratungen, Rituale oder spirituelle Fragen.">
+
+  <meta name="keywords" content="Kontakt Marabout Robert Tchedji, Nachricht senden, Beratung, Liebesrückführung, Wahrsagen">
+
+  <link rel="stylesheet" href="styleintro.css">
+  <link rel="stylesheet" href="styleismo.css">
+
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.7;
+    }
+    header.hero {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+      position: relative;
+    }
+    header.hero h1 {
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+      z-index: 2;
+    }
+    header.hero .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    header.hero .slide.active { opacity: 1; }
+    main {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #111;
+    }
+    main p, main input, main textarea, main button {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    main input, main textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    main button {
+      background: #6a11cb;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    main button:hover { background: #5a0eb8; }
+    #whatsappPopup {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      display: none;
+      z-index: 1000;
+    }
+    #whatsappPopup.show { display: block; }
+    #whatsappPopup button {
+      background: #075E54;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="slide active" style="background-image: url('images/photobg.jpg');"></div>
+  <div class="slide" style="background-image: url('images/bg1.jpg');"></div>
+  <div class="slide" style="background-image: url('images/bg15.jpg');"></div>
+  <div class="slide" style="background-image: url('images/bg2.jpg');"></div>
+  <h1>MEISTER MARABOUT ROBERT TCHEDJI</h1>
+</header>
+
+<main>
+  <h2>Kontakt</h2>
+  <p>
+    Sie können Meister Robert Tchedji für Beratungen, Rituale oder spirituelle Fragen direkt kontaktieren. Schreiben Sie uns eine Nachricht und erhalten Sie schnelle Unterstützung.
+  </p>
+
+  <form id="contactForm">
+    <input type="text" id="prenom" placeholder="Vorname" required>
+    <input type="text" id="nom" placeholder="Nachname" required>
+    <textarea id="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+    <button type="submit">Senden</button>
+  </form>
+</main>
+
+<div id="whatsappPopup">
+  <div>Schreiben Sie uns <span id="closeWhatsApp">&times;</span></div>
+  <button id="whatsappButton">WhatsApp Chat</button>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-about">
+      <h3>Über uns</h3>
+      <p>
+        Meister Robert ist ein erfahrener spiritueller Praktiker,
+        Erbe uralter Weisheiten.
+        Er begleitet Menschen bei Blockaden, mystischen Angriffen, Ungerechtigkeiten oder tiefen Schwierigkeiten.
+      </p>
+    </div>
+    <a href="about.html" class="footer-about-btn">Mehr erfahren →</a>
+
+    <div class="footer-contact">
+      <h3>Kontakt</h3>
+      <p>📞 +229 98 21 05 27</p>
+      <p>✉️ Honorablepuissanttchedji@gmail.com</p>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <p>Erhalten Sie spirituelle Informationen, verfügbare Rituale und exklusive Tipps.</p>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Ihre E-Mail" required>
+        <button type="submit">Abonnieren</button>
+      </form>
+    </div>
+
+    <div class="footer-socials">
+      <h3>Folgen Sie uns & kontaktieren Sie uns</h3>
+      <div class="social-icons-footer">
+        <a href="https://wa.me/22998210527" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+        <a href="mailto:Honorablepuissanttchedji@gmail.com"><img src="images/mail.png" alt="Email"></a>
+        <a href="https://www.youtube.com/@grandmaitremaraboutdumonde4679" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+        <a href="tel:+2290198210527"><img src="images/phone.png" alt="Telefon"></a>
+        <a href="https://www.facebook.com/share/1A7EYnWH4y/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@maraboutroberttchedji" target="_blank"><img src="images/tiktok.png" alt="TikTok"></a>
+        <a href="https://www.snapchat.com/add/camaravoyant" target="_blank"><img src="images/Snapchat.png" alt="Snapchat"></a>
+        <a href="https://www.instagram.com/puissanttchedjihonorable" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://pin.it/6vdGNss5n" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Alle Rechte vorbehalten — 
+      <a href="mention.html">Datenschutzrichtlinie</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Slider
+  const slides = document.querySelectorAll('.slide');
+  let index = 0;
+  setInterval(() => {
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+  }, 3500);
+
+  // Hamburger
+  const hamburgerIcon = document.getElementById('hamburgerIcon');
+  const menuContent = document.getElementById('menuContent');
+  if(hamburgerIcon){
+    hamburgerIcon.addEventListener('click', () => {
+      menuContent.classList.toggle('open');          
+      hamburgerIcon.classList.toggle('active');      
+    });
+  }
+
+  // WhatsApp popup
+  setTimeout(() => document.getElementById('whatsappPopup').classList.add('show'), 5000);
+  document.getElementById('closeWhatsApp').addEventListener('click', () => {
+    document.getElementById('whatsappPopup').classList.remove('show');
+  });
+  document.getElementById('whatsappButton').addEventListener('click', () => {
+    window.open('https://wa.me/22998210527', '_blank');
+  });
+
+  // Form submit via WhatsApp
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const prenom = document.getElementById('prenom').value.trim();
+    const nom = document.getElementById('nom').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const fullMessage = `Hallo, ich heiße ${prenom} ${nom}.\n${message}`;
+    const url = `https://wa.me/22998210527?text=${encodeURIComponent(fullMessage)}`;
+    window.open(url, '_blank');
+  });
+
+  // Newsletter toast
+  const form = document.getElementById("newsletter-form");
+  const toast = document.createElement("div");
+  toast.id = "newsletter-toast";
+  toast.style.display = "none";
+  toast.innerHTML = "✔️ Vielen Dank für Ihr Vertrauen.<br>Sie erhalten unsere exklusiven Informationen bald.";
+  document.body.appendChild(toast);
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    toast.style.display = "block";
+    form.reset();
+    setTimeout(() => toast.style.display = "none", 5000);
+  });
+</script>
+
+</body>
+</html>
